@@ -45,7 +45,7 @@ self.addEventListener('fetch', function(e) {
     );
     return;
   }
-  // Network-first for HTML (always get latest)
+  // Network-first for HTML (always get latest version)
   if (e.request.url.endsWith('.html') || e.request.url.endsWith('/')) {
     e.respondWith(
       fetch(e.request).then(function(res) {

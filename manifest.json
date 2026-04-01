@@ -2,8 +2,8 @@
   "name": "ENT Research Data Collection",
   "short_name": "ENT Research",
   "description": "Vitamin D & Allergic Rhinitis Research — Data Collection App",
-  "start_url": "./index.html",
-  "scope": "./",
+  "start_url": "https://likhithlucky2009.github.io/ENT-RESEARCH/",
+  "scope": "https://likhithlucky2009.github.io/ENT-RESEARCH/",
   "display": "standalone",
   "background_color": "#1e1b4b",
   "theme_color": "#4f46e5",
@@ -13,13 +13,5 @@
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
   "categories": ["medical", "productivity"],
-  "lang": "en",
-  "screenshots": [
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "form_factor": "narrow"
-    }
-  ]
+  "lang": "en"
 }
